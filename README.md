@@ -1,9 +1,9 @@
-#### Hartzai Jokua - Lógica y Estructura
+# Hartzai Jokua - Lógica y Estructura
 
 La base de este proyecto es el tradicional juego del **Conecta 4**, el cual en euskera se dice **Hartzai Jokua**. 
 Este juego consiste en lograr `conectar 4` fichas iguales seguidas, ya sea en horizontal, vertical o diagonal.
 
-### Arquitectura del Juego
+## Arquitectura del Juego
 
 Este programa está dividido en varias funciones, las cuales se integran finalmente en una misma función (Función General).
 Estas funciones tienen como fin...
@@ -12,7 +12,7 @@ Estas funciones tienen como fin...
     --> Recopilar los movimientos de los jugadores, y comprobar que son válidos.
     --> Analizar el tablero para determinar el final del juego; cuando alguien **gana**, o en caso de **empate**.
 
-## Flujo del Código
+### Flujo del Código
 
 1. Inicio: El programa solicita al usuario las dimensiones del tablero (N).
    --> Validación: Si N < 4, vuelve a pedir el número.
@@ -56,7 +56,7 @@ Estas funciones tienen como fin...
 
     //// Siguiente Ronda: Si nadie ganó ni hubo empate, el bucle vuelve al inicio para el Turno del Jugador 1.
    
-## Optimización del Código
+### Optimización del Código
 
 Actualmente el arcvhivo "JUEGO_HartzaiJokua_Base.py" contiene la base del juego. No obstante, existen diferentes mejoras aplicables para mejorar el diseño del programa. 
 (las dejo como puntos de mejora para versiones posteriores)
