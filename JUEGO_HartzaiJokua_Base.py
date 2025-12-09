@@ -166,7 +166,7 @@ def tabla_llena(tablero):
 
 
 ################################            FUNCIÓN GENERAL
-def Conecta3():
+def HartzaiJokua():
 
     #####   Variables
     terminado = False #Comienzo con False hasta que el juego termine; algún jugador conecta 4 fichas, o la tabla se llena
@@ -182,6 +182,7 @@ def Conecta3():
         dimensiones = int(input("Introduzca un número entero para las dimensiones del tablero: "))
 
     tablero = crear_tabla(dimensiones)
+    print("¡BIENVENIDO A HARTZAI JOKUA - EDICIÓN TUPANDITTA!")
     mostrar_tabla(tablero)
 
     print() #Visual
@@ -208,7 +209,7 @@ def Conecta3():
             print() #Visual
 
             print('¡ENHORABUENA!')
-            print('Jugador 1 has ganado')
+            print('Jugador 1 HAS GANADO')
 
             break #Se sale del bucle principal (El juego ha terminado)
         
@@ -216,7 +217,7 @@ def Conecta3():
             print() #Visual
             print() #Visual
 
-            print('EMPATE')
+            print('¡EMPATE!')
             
             break #Se sale del bucle principal (El juego ha terminado)
         
@@ -239,7 +240,7 @@ def Conecta3():
             print() #Visual
 
             print('¡ENHORABUENA!')
-            print('Jugador 2 has ganado')
+            print('Jugador 2 HAS GANADO')
 
             break #Se sale del bucle principal (El juego ha terminado)
         
@@ -247,7 +248,7 @@ def Conecta3():
             print() #Visual
             print() #Visual
 
-            print('EMPATE')
+            print('¡EMPATE!')
             
             break #Se sale del bucle principal (El juego ha terminado)
         
@@ -257,4 +258,5 @@ def Conecta3():
 
 
 ################################            JUGAR
-Conecta3() 
+HartzaiJokua() 
+
