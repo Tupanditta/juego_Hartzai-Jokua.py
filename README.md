@@ -55,9 +55,4 @@ Estas funciones tienen como fin...
               % % Si no quedan huecos: Muestra "EMPATE" y rompe el bucle (FIN).
 
     //// Siguiente Ronda: Si nadie ganó ni hubo empate, el bucle vuelve al inicio para el Turno del Jugador 1.
-   
-### Optimización del Código
-
-Actualmente el arcvhivo "JUEGO_HartzaiJokua_Base.py" contiene la base del juego. No obstante, existen diferentes mejoras aplicables para mejorar el diseño del programa. 
-(las dejo como puntos de mejora para versiones posteriores)
 
